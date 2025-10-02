@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+  height: 100vh;
+  display: flex;
+   margin: 0;
+  flex-direction: column;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.header{
+    display: flex;
+
+}
+ .header-links{
+    display: flex;
+    /*Crucial tool Flex:1 allows the child class to take up the full space of the parent making it easier to move around the page*/
+    flex: 1;
+    gap: 50px;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+}
+.sign{
+    color: white;
+    background-color: rgb(61, 108, 208);
+    border-radius: 5px;
+    padding: 8px;
+    margin:1px
+}
+.header, .container , .footer{
+    font-family: Roboto , serif;
+    background-color:#1f2937;
+    color: white;
+}
+.container{
+    display: flex;
+    flex: 1;
+    height: fit-content;
+
+
+}
+.title{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+   
+    
+}
+.heading{
+    font-weight: 900;
+    font-size: 48px;
+    color:#f9faf8
+}
+.subtitle{
+    font-size: 18px;
+    color:#e5e7eb
+}
+.taxicab{
+    display: flex;
+    align-content:space-evenly;
+    align-items: center;
+    padding: 8px ;
+    margin: 8px;
+    justify-content: end;
+    flex-wrap: wrap;
+    
+}
+.random{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    margin-top: auto;
+   
+}
+.subheading{
+    display: flex;
+    justify-content: center;
+
+}
+.subtext{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: nowrap;
+    gap: 20px
+}
+.quote{
+    display: flex;
+    justify-content: end;
+    background-color: #e5e7eb;
+    padding:9px;
+    font-size: 30px;
+    color:#1f2937;
+    font-weight: 300px;
+}
+
+.paragraph{
+    display: flex;
+    justify-content: end;
+}
+.action{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 8px;
+    padding: 16px;
+    border-radius: 10px;
+    color:white;
+    background-color:#3882f6;
+
+}
+.signup{
+    display: flex;
+    align-items: center;
+    margin: 5;
+    padding: 10px;
+    height: 40px;
+    color: white;
+    border-radius: 8px;
+    
+}
+.footer{
+   margin-top: auto;
+
+}
+
+/*Removes bullet points from list*/
+ul {
+  list-style-type: none;
+}
